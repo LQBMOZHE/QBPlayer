@@ -1,0 +1,36 @@
+{
+  "name": "QBPlayer",
+  "version": "0.1.0",
+  "summary": "第三方插件改动后封装",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/673208274@qq.com/QBPlayer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "673208274@qq.com": "673208274@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/673208274@qq.com/QBPlayer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "QBPlayer/Classes/**/*",
+  "resource_bundles": {
+    "QBPlayer": [
+      "QBPlayer/Assets/*.png"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "AVFoundation"
+  ],
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  }
+}

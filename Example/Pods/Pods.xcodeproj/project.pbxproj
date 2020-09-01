@@ -1,0 +1,1372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0007BE14A4FC52F72E60D3D6DD33DB06 /* player_icon_nav_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E179BDFDA7801551964BFA2AE849E4C8 /* player_icon_nav_back@3x.png */; };
+		05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0967598607D521318F69D7D39D517B20 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */; };
+		098630ECDB64ED7B89F5F687C82B4AC3 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */; };
+		0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BF01ABCDF7A8F4034AB29BB14B8FB7F /* WMLightView.m in Sources */ = {isa = PBXBuildFile; fileRef = C75D4371C65984AB38B811CC155A9E54 /* WMLightView.m */; };
+		16413DD1D025BA65C2422E39C6A6E64D /* top_shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = F056600006C9B6F2BEDD9DAF81957BF0 /* top_shadow.png */; };
+		1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */; };
+		21A2FE148991C6D88E53188159A274A3 /* player_icon_unlock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1423BC4D9FBECD7676B79E9609F7B49D /* player_icon_unlock@2x.png */; };
+		235CF1446987020AAEEA92FCD1D5615F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB8EFD5FCA76C34EACB06944E962CAC /* Foundation.framework */; };
+		23F452F2B6E4876712D8AF8E9C05ADA7 /* Pods-QBPlayer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E56D6C7ED9ACC48491B8D07D6A108DC9 /* Pods-QBPlayer_Tests-dummy.m */; };
+		262AC80BF2B57A35A68D4178D74FA781 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB8EFD5FCA76C34EACB06944E962CAC /* Foundation.framework */; };
+		280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */; };
+		2ABA7F81BA7F4958D704F618BAB506CC /* play_new_brightness_day@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E902A07F1341175E1E2912E5E497A86F /* play_new_brightness_day@2x.png */; };
+		2BC95A9927DBFA15A55FCC9DB5C8FAF8 /* player_icon_download@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E363EBE939211531FABF87B7BE68353 /* player_icon_download@2x.png */; };
+		2BE1B215E8373281BF86BC4E8CBB61D5 /* player_ctrl_icon_pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1700437721423EEFC4DEEA8D18D37EEC /* player_ctrl_icon_pause@2x.png */; };
+		2C8DC2184B0DA3F20D3A255645D93A7E /* nonfullscreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD49C11EFB173374B2DAF4FA8FE42E97 /* nonfullscreen@2x.png */; };
+		2E2A662677D6832421CC128905B55AAB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD65967A00465C170C5A43DF69B228C /* UIKit.framework */; };
+		33A99196E804403C39182F532AAFB00D /* dot@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E8C680535BE1D63E5CE66BC9B2CA6B /* dot@3x.png */; };
+		346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D92D564CB242C6F5854A8221147D80A /* progress_icon_l@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E0AD8E321183EBC82E5AFCD2643BFEC /* progress_icon_l@2x.png */; };
+		3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C501B62E6E2C2E62DC35472EA2DD8BB /* fullscreen@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D1471E734C8071909A0BD1F2DF63573 /* fullscreen@3x.png */; };
+		4EDA1B033FC952016AD4CAE177F19BD5 /* player_ctrl_icon_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A4B6A4B5823004D187CC7512AA237A /* player_ctrl_icon_play@2x.png */; };
+		4F1F1D252FC68A0DED134808E6ED5708 /* WMPlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D5F90E8AD2967E7CB06D73C00B714E /* WMPlayerModel.m */; };
+		565B1ED4610A0889556BC17FE2DE962A /* dot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF8AB028189CA4594297A08F792FA564 /* dot@2x.png */; };
+		5704996544A89369F0993DDB6063F4A8 /* Pods-QBPlayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3E8FB6A56788F59F94D8FEF4C63CB28 /* Pods-QBPlayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61F6563BE0681B8A1A5BB40B46EAD2F6 /* player_ctrl_icon_play@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82EC13EA808772F5DF4AFBCC8CB651BE /* player_ctrl_icon_play@3x.png */; };
+		6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BB15D897751E0D2EAD4470516E9D77F /* player_ctrl_icon_next@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13E7131B37148CEA72744635771EEE52 /* player_ctrl_icon_next@2x.png */; };
+		6FB07AE1BBACA19788C85EE24F09566D /* bottom_shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D0BB69AC3DED2E5847B19D1F1682799 /* bottom_shadow.png */; };
+		71B8F2D6F5F98F3857551FEACFA7B944 /* close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7909E0C94663F7C17D2F592CF8B67FD0 /* close@3x.png */; };
+		76DA830202689B06DAF10A2F51952D5A /* player_icon_download@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B89C6296BF00E019C4F153A6A5FC234 /* player_icon_download@3x.png */; };
+		78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */; };
+		7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */; };
+		8269CC307724A7377DABD464DAA80C2A /* player_ctrl_icon_pause@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C56D6C017A223EEC30FC4B4A802DA294 /* player_ctrl_icon_pause@3x.png */; };
+		8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */; };
+		8645262C496292A131BC2C699ED23AC7 /* FastForwardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 550B435AE114B4E410CC27FAFC562FCF /* FastForwardView.m */; };
+		8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93837C8C3179399ADB632C0AA3D8A778 /* progress_icon_r@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A1ABDD9A20916E5A8907D379F4D028 /* progress_icon_r@3x.png */; };
+		941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94B691DC084864B661E984F2F2894E65 /* WMPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B06870AC9CB5A642F7E250E994C7B0 /* WMPlayer.m */; };
+		9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D590F05EAE8E7CEE9A202AB441DA366 /* UIViewController+ShouldAutorotate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E475E1ACFD7051D9570616C20F8D033 /* UIViewController+ShouldAutorotate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DF624E022B43786A823B3133667CB2F /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442E2090D41257DEFB1ED2D0EC9DE2BD /* Masonry.framework */; };
+		9E00D22B5F9C7E42A03FFDD155132B5A /* FastForwardView.h in Headers */ = {isa = PBXBuildFile; fileRef = D8515BEABD9A801CB7160CD7B0DAEB31 /* FastForwardView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EE8C3D4A51198F2194B01AD9403C784 /* player_icon_lock@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFEB9E6663ADC1AD49725412EBB13AAF /* player_icon_lock@3x.png */; };
+		A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */; };
+		A6CF22D83D09879023CC6E0E48147C11 /* nonfullscreen@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 72D5E24709FFF7AC431DA3B733B590E3 /* nonfullscreen@3x.png */; };
+		A9BF02249A21B1C8B88A72F6035CE3FD /* fullscreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0215D797AAD2E644930F1A2EB715504B /* fullscreen@2x.png */; };
+		ACA118597472D7672357F878F24B33CF /* player_icon_nav_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48B00A728A37C0E6BC1A924A28848A7D /* player_icon_nav_back@2x.png */; };
+		B204A1C3EBEE3B2147C9D7A3CC095528 /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74F8A2FEAC2A1C3FB7896A2BAE3142C2 /* close@2x.png */; };
+		B527AA90521F6FD70A3DA6DFB0C56BB0 /* QBPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C345EF79190223E1D503B4365D9DED9 /* QBPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B58D52BBB630E668847C8D1176C21CC4 /* Pods-QBPlayer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 746F49F087C8DFD297DF1043C8C50622 /* Pods-QBPlayer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */; };
+		BBD17C92924082F41EF99DD8B0232993 /* WMLightView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FBC206C9BA0CA7B3FCE7A2574DB4436 /* WMLightView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC63C1F4FF236B527B46C7989D696DC1 /* player_ctrl_icon_next@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B051986522AD7C283812BC1D14019ECE /* player_ctrl_icon_next@3x.png */; };
+		C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		C34C286484BA8E0AE0A535385AC2E9BE /* play_new_brightness_day.png in Resources */ = {isa = PBXBuildFile; fileRef = D3423D9F402393E6FAFDCB4225B2B058 /* play_new_brightness_day.png */; };
+		CBC016104E9D305C832025CAEEE873DE /* player_icon_unlock@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C99B53EDC44C6B75A6013D5B6496A0B /* player_icon_unlock@3x.png */; };
+		CC8E0DE670AA47C286F11FA5D09B2ADB /* progress_icon_r@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BC5C630BA6BF299D025D5E4177AABEC /* progress_icon_r@2x.png */; };
+		CE93C54413259B4AC3683B6EB874D466 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD65967A00465C170C5A43DF69B228C /* UIKit.framework */; };
+		CFD704894806EA1C6CFCAEB21F2E09BF /* play_new_brightness_night.png in Resources */ = {isa = PBXBuildFile; fileRef = DD7234369F312C065ECE1A17A50F4392 /* play_new_brightness_night.png */; };
+		D21A4625BFA802270C26CBDF32C61B52 /* player_icon_fullscreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE0CBA23FC92F2F31B632564C34CE43 /* player_icon_fullscreen@2x.png */; };
+		D299590207348A4C479BFF3BDE87FEF6 /* UIViewController+ShouldAutorotate.m in Sources */ = {isa = PBXBuildFile; fileRef = F12E253D8AC5569C874CD1CE3F3D1FF7 /* UIViewController+ShouldAutorotate.m */; };
+		D35199123E67999062FEBA10E420FC36 /* WMPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F59249E42FAF6B688229F78624B989A /* WMPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE9F3594F722FC5816B7FED76BDE64EB /* player_icon_lock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADAC27087DA230E13D8D6FF6DC436CDB /* player_icon_lock@2x.png */; };
+		E141A50EFDB0CF7EA412216B694762A9 /* QBPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 447E921FA5508302E5AB9CD2A3FE2796 /* QBPlayer-dummy.m */; };
+		E51F496BDC6ACADE04FDA059C6CB2342 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB8EFD5FCA76C34EACB06944E962CAC /* Foundation.framework */; };
+		E6DC3301FF16B6A370EC8E243061C135 /* WMPlayerModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2726D898F907F06E6B7A7F2A0AD2EF73 /* WMPlayerModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */; };
+		E9B902C73B74BD46F94B14C47AA49806 /* play_new_brightness_night@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3242DDC2DBC2D7EC51E7F97556FF2705 /* play_new_brightness_night@2x.png */; };
+		EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDB5B98CDFA647EA18928B5DE184B52E /* QBPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B9171280132D4D5413493660F2102BA3 /* QBPlayer.bundle */; };
+		EE4083F9C092F10435003EE2B959C6AD /* Pods-QBPlayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAD36A495A636F2F4741517751C530A /* Pods-QBPlayer_Example-dummy.m */; };
+		EED5539506EF0A01969552B630D42E62 /* progress_icon_l@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F36D16C644FAD67CD7AD9646C4C8FC4 /* progress_icon_l@3x.png */; };
+		F54DBC75C37A29F0B4120984FB5410AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB8EFD5FCA76C34EACB06944E962CAC /* Foundation.framework */; };
+		F7FDBC5480CCD0020693D763F36CAF4A /* player_icon_fullscreen@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBC1290C4584F186A3189003784C1000 /* player_icon_fullscreen@3x.png */; };
+		FA7780F057163693F344626FE1087414 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 257576D8E4F061338E78E4CE93DE484F /* AVFoundation.framework */; };
+		FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13F8BAEBFE677EB4A0CAA35279DAC30E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		54CD8FDA20861CE7FD0C2E455BF3845E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8794641640AC7B54CDC1EDB28E93B377;
+			remoteInfo = "Pods-QBPlayer_Example";
+		};
+		94339A98E29CBB46DA73E39BE0DE0AEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 575B27FEE9C2479F10FD4FC6D304F45F;
+			remoteInfo = QBPlayer;
+		};
+		B253F86BC2D64B8D06E0B831AE9C63F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79C3B35EB34323AFD8CD57C8D8388FE9;
+			remoteInfo = "QBPlayer-QBPlayer";
+		};
+		CF2D5E2AC7E547689673666643DD4DAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0215D797AAD2E644930F1A2EB715504B /* fullscreen@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fullscreen@2x.png"; path = "QBPlayer/Assets/fullscreen@2x.png"; sourceTree = "<group>"; };
+		02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		08124B12CFF37B14146F0DCCEF68D518 /* Pods_QBPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QBPlayer_Example.framework; path = "Pods-QBPlayer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD0B2146165C2AC6876D3069F756915 /* QBPlayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QBPlayer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0E0AD8E321183EBC82E5AFCD2643BFEC /* progress_icon_l@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "progress_icon_l@2x.png"; path = "QBPlayer/Assets/progress_icon_l@2x.png"; sourceTree = "<group>"; };
+		13E7131B37148CEA72744635771EEE52 /* player_ctrl_icon_next@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "player_ctrl_icon_next@2x.png"; path = "QBPlayer/Assets/player_ctrl_icon_next@2x.png"; sourceTree = "<group>"; };
+		1423BC4D9FBECD7676B79E9609F7B49D /* player_icon_unlock@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "player_icon_unlock@2x.png"; path = "QBPlayer/Assets/player_icon_unlock@2x.png"; sourceTree = "<group>"; };
+		1700437721423EEFC4DEEA8D18D37EEC /* player_ctrl_icon_pause@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "player_ctrl_icon_pause@2x.png"; path = "QBPlayer/Assets/player_ctrl_icon_pause@2x.png"; sourceTree = "<group>"; };
+		1B89C6296BF00E019C4F153A6A5FC234 /* player_icon_download@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "player_icon_download@3x.png"; path = "QBPlayer/Assets/player_icon_download@3x.png"; sourceTree = "<group>"; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		257576D8E4F061338E78E4CE93DE484F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		257FB4C80A6B5A41E06C701D7008E964 /* QBPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QBPlayer.release.xcconfig; sourceTree = "<group>"; };
+		2726D898F907F06E6B7A7F2A0AD2EF73 /* WMPlayerModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMPlayerModel.h; path = QBPlayer/Classes/WMPlayerModel.h; sourceTree = "<group>"; };
+		27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		2B6B12CB749E66B0FED43628072BA618 /* QBPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QBPlayer.framework; path = QBPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C99B53EDC44C6B75A6013D5B6496A0B /* player_icon_unlock@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "player_icon_unlock@3x.png"; path = "QBPlayer/Assets/player_icon_unlock@3x.png"; sourceTree = "<group>"; };
+		2CAD36A495A636F2F4741517751C530A /* Pods-QBPlayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QBPlayer_Example-dummy.m"; sourceTree = "<group>"; };
+		30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		3174D1912E7C2B4C7374F6FD7305C6A7 /* Pods-QBPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QBPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3242DDC2DBC2D7EC51E7F97556FF2705 /* play_new_brightness_night@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "play_new_brightness_night@2x.png"; path = "QBPlayer/Assets/play_new_brightness_night@2x.png"; sourceTree = "<group>"; };
+		342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		344F9E43DC5300993A1951AD54D7BF48 /* QBPlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QBPlayer-Info.plist"; sourceTree = "<group>"; };
+		3DE0CBA23FC92F2F31B632564C34CE43 /* player_icon_fullscreen@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "player_icon_fullscreen@2x.png"; path = "QBPlayer/Assets/player_icon_fullscreen@2x.png"; sourceTree = "<group>"; };
+		3E537C1F47DA8B06DA4A71E3D14F4DE4 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
+		442E2090D41257DEFB1ED2D0EC9DE2BD /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		447E921FA5508302E5AB9CD2A3FE2796 /* QBPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QBPlayer-dummy.m"; sourceTree = "<group>"; };
+		44A4B6A4B5823004D187CC7512AA237A /* player_ctrl_icon_play@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "player_ctrl_icon_play@2x.png"; path = "QBPlayer/Assets/player_ctrl_icon_play@2x.png"; sourceTree = "<group>"; };
+		470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		48B00A728A37C0E6BC1A924A28848A7D /* player_icon_nav_back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "player_icon_nav_back@2x.png"; path = "QBPlayer/Assets/player_icon_nav_back@2x.png"; sourceTree = "<group>"; };
+		4A4FEB4F86A25207F4D9D2996D164B24 /* Pods-QBPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QBPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		4B3BF79AA3DA6800F36A5B6A8DD10143 /* Pods-QBPlayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QBPlayer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4C457D737D3F04A57F929213824137B7 /* Pods-QBPlayer_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QBPlayer_Tests-Info.plist"; sourceTree = "<group>"; };
+		4F59249E42FAF6B688229F78624B989A /* WMPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMPlayer.h; path = QBPlayer/Classes/WMPlayer.h; sourceTree = "<group>"; };
+		50E23F86C39E935F72145FDE8902CF5C /* QBPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QBPlayer.modulemap; sourceTree = "<group>"; };
+		550B435AE114B4E410CC27FAFC562FCF /* FastForwardView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FastForwardView.m; path = QBPlayer/Classes/FastForwardView.m; sourceTree = "<group>"; };
+		55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		5BC5C630BA6BF299D025D5E4177AABEC /* progress_icon_r@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "progress_icon_r@2x.png"; path = "QBPlayer/Assets/progress_icon_r@2x.png"; sourceTree = "<group>"; };
+		5C345EF79190223E1D503B4365D9DED9 /* QBPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QBPlayer-umbrella.h"; sourceTree = "<group>"; };
+		5D0BB69AC3DED2E5847B19D1F1682799 /* bottom_shadow.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = bottom_shadow.png; path = QBPlayer/Assets/bottom_shadow.png; sourceTree = "<group>"; };
+		5F36D16C644FAD67CD7AD9646C4C8FC4 /* progress_icon_l@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "progress_icon_l@3x.png"; path = "QBPlayer/Assets/progress_icon_l@3x.png"; sourceTree = "<group>"; };
+		607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		60B06870AC9CB5A642F7E250E994C7B0 /* WMPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMPlayer.m; path = QBPlayer/Classes/WMPlayer.m; sourceTree = "<group>"; };
+		61F7534C39BA14954A0F78C036DED0F1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		655BF6AD41F6419F23424604F20231DE /* Pods-QBPlayer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QBPlayer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		67510FEF418CD8BEB879D2934C47A04B /* Pods-QBPlayer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QBPlayer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6CB8EFD5FCA76C34EACB06944E962CAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		709C94C5EFFBB5782138080FC5A0B499 /* Pods-QBPlayer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QBPlayer_Tests.modulemap"; sourceTree = "<group>"; };
+		72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		72D5E24709FFF7AC431DA3B733B590E3 /* nonfullscreen@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "nonfullscreen@3x.png"; path = "QBPlayer/Assets/nonfullscreen@3x.png"; sourceTree = "<group>"; };
+		746F49F087C8DFD297DF1043C8C50622 /* Pods-QBPlayer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QBPlayer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		748EDFB6B0E2133FCB4BA0A71CCDA255 /* Pods-QBPlayer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QBPlayer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		74F8A2FEAC2A1C3FB7896A2BAE3142C2 /* close@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "close@2x.png"; path = "QBPlayer/Assets/close@2x.png"; sourceTree = "<group>"; };
+		7542DEB762570C34F4BC0FED8671FDFD /* QBPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QBPlayer.debug.xcconfig; sourceTree = "<group>"; };
+		7909E0C94663F7C17D2F592CF8B67FD0 /* close@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "close@3x.png"; path = "QBPlayer/Assets/close@3x.png"; sourceTree = "<group>"; };
+		7E475E1ACFD7051D9570616C20F8D033 /* UIViewController+ShouldAutorotate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ShouldAutorotate.h"; sourceTree = "<group>"; };
+		7F7B7C2FBEFB822FC41B0F05202DB180 /* Pods-QBPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QBPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		82EC13EA808772F5DF4AFBCC8CB651BE /* player_ctrl_icon_play@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "player_ctrl_icon_play@3x.png"; path = "QBPlayer/Assets/player_ctrl_icon_play@3x.png"; sourceTree = "<group>"; };
+		837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		84A1ABDD9A20916E5A8907D379F4D028 /* progress_icon_r@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "progress_icon_r@3x.png"; path = "QBPlayer/Assets/progress_icon_r@3x.png"; sourceTree = "<group>"; };
+		86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		8E363EBE939211531FABF87B7BE68353 /* player_icon_download@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "player_icon_download@2x.png"; path = "QBPlayer/Assets/player_icon_download@2x.png"; sourceTree = "<group>"; };
+		9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		99E8C680535BE1D63E5CE66BC9B2CA6B /* dot@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "dot@3x.png"; path = "QBPlayer/Assets/dot@3x.png"; sourceTree = "<group>"; };
+		9D1471E734C8071909A0BD1F2DF63573 /* fullscreen@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fullscreen@3x.png"; path = "QBPlayer/Assets/fullscreen@3x.png"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FBC206C9BA0CA7B3FCE7A2574DB4436 /* WMLightView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMLightView.h; path = QBPlayer/Classes/WMLightView.h; sourceTree = "<group>"; };
+		A3E8FB6A56788F59F94D8FEF4C63CB28 /* Pods-QBPlayer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QBPlayer_Example-umbrella.h"; sourceTree = "<group>"; };
+		A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		ADAC27087DA230E13D8D6FF6DC436CDB /* player_icon_lock@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "player_icon_lock@2x.png"; path = "QBPlayer/Assets/player_icon_lock@2x.png"; sourceTree = "<group>"; };
+		AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		AF8AB028189CA4594297A08F792FA564 /* dot@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "dot@2x.png"; path = "QBPlayer/Assets/dot@2x.png"; sourceTree = "<group>"; };
+		B051986522AD7C283812BC1D14019ECE /* player_ctrl_icon_next@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "player_ctrl_icon_next@3x.png"; path = "QBPlayer/Assets/player_ctrl_icon_next@3x.png"; sourceTree = "<group>"; };
+		B177774FD5A2FAC13BE96CA780BF04F8 /* QBPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QBPlayer-prefix.pch"; sourceTree = "<group>"; };
+		B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		B574F835F9F09A14BDF968255B5D4B1E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B6081B7B22116B0E3C767F1EDF549695 /* Pods-QBPlayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QBPlayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B7B5D6CA6290B146A9FBD07934377F67 /* Pods-QBPlayer_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QBPlayer_Example-Info.plist"; sourceTree = "<group>"; };
+		B9171280132D4D5413493660F2102BA3 /* QBPlayer.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = QBPlayer.bundle; path = "QBPlayer-QBPlayer.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD49C11EFB173374B2DAF4FA8FE42E97 /* nonfullscreen@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "nonfullscreen@2x.png"; path = "QBPlayer/Assets/nonfullscreen@2x.png"; sourceTree = "<group>"; };
+		BDB676D9D5D3AFD89D8DDCE3369D4BAC /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		C44A8C1674CAAAE04F71DC81FB08FC65 /* Pods-QBPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QBPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C56D6C017A223EEC30FC4B4A802DA294 /* player_ctrl_icon_pause@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "player_ctrl_icon_pause@3x.png"; path = "QBPlayer/Assets/player_ctrl_icon_pause@3x.png"; sourceTree = "<group>"; };
+		C75D4371C65984AB38B811CC155A9E54 /* WMLightView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMLightView.m; path = QBPlayer/Classes/WMLightView.m; sourceTree = "<group>"; };
+		C8FA2570FB9CE3D011356CBC1986A211 /* Pods-QBPlayer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QBPlayer_Example.modulemap"; sourceTree = "<group>"; };
+		CBC1290C4584F186A3189003784C1000 /* player_icon_fullscreen@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "player_icon_fullscreen@3x.png"; path = "QBPlayer/Assets/player_icon_fullscreen@3x.png"; sourceTree = "<group>"; };
+		CFEB9E6663ADC1AD49725412EBB13AAF /* player_icon_lock@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "player_icon_lock@3x.png"; path = "QBPlayer/Assets/player_icon_lock@3x.png"; sourceTree = "<group>"; };
+		D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		D3423D9F402393E6FAFDCB4225B2B058 /* play_new_brightness_day.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = play_new_brightness_day.png; path = QBPlayer/Assets/play_new_brightness_day.png; sourceTree = "<group>"; };
+		D3D5F90E8AD2967E7CB06D73C00B714E /* WMPlayerModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMPlayerModel.m; path = QBPlayer/Classes/WMPlayerModel.m; sourceTree = "<group>"; };
+		D8515BEABD9A801CB7160CD7B0DAEB31 /* FastForwardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FastForwardView.h; path = QBPlayer/Classes/FastForwardView.h; sourceTree = "<group>"; };
+		DAD65967A00465C170C5A43DF69B228C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DD7234369F312C065ECE1A17A50F4392 /* play_new_brightness_night.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = play_new_brightness_night.png; path = QBPlayer/Assets/play_new_brightness_night.png; sourceTree = "<group>"; };
+		DFA1012B6A8BD076CD9F09831AE37A01 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
+		E179BDFDA7801551964BFA2AE849E4C8 /* player_icon_nav_back@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "player_icon_nav_back@3x.png"; path = "QBPlayer/Assets/player_icon_nav_back@3x.png"; sourceTree = "<group>"; };
+		E56D6C7ED9ACC48491B8D07D6A108DC9 /* Pods-QBPlayer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QBPlayer_Tests-dummy.m"; sourceTree = "<group>"; };
+		E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		E902A07F1341175E1E2912E5E497A86F /* play_new_brightness_day@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "play_new_brightness_day@2x.png"; path = "QBPlayer/Assets/play_new_brightness_day@2x.png"; sourceTree = "<group>"; };
+		EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		EBCEF1FFD5D7C961A1F4E0A2EE1B9FFB /* Pods_QBPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QBPlayer_Tests.framework; path = "Pods-QBPlayer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		F056600006C9B6F2BEDD9DAF81957BF0 /* top_shadow.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = top_shadow.png; path = QBPlayer/Assets/top_shadow.png; sourceTree = "<group>"; };
+		F12E253D8AC5569C874CD1CE3F3D1FF7 /* UIViewController+ShouldAutorotate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ShouldAutorotate.m"; sourceTree = "<group>"; };
+		F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
+		FC6E2C3FE91462A8B36B16B7FE72FF67 /* ResourceBundle-QBPlayer-QBPlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-QBPlayer-QBPlayer-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A7DB7C3A61445A3E829B4728265C597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262AC80BF2B57A35A68D4178D74FA781 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2563020146961347D51809507CFFE59E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235CF1446987020AAEEA92FCD1D5615F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E047F76604659BF1B2099B2C412AC93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E51F496BDC6ACADE04FDA059C6CB2342 /* Foundation.framework in Frameworks */,
+				CE93C54413259B4AC3683B6EB874D466 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9818429105FCF7A6B1875ABC9695131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7780F057163693F344626FE1087414 /* AVFoundation.framework in Frameworks */,
+				F54DBC75C37A29F0B4120984FB5410AB /* Foundation.framework in Frameworks */,
+				9DF624E022B43786A823B3133667CB2F /* Masonry.framework in Frameworks */,
+				2E2A662677D6832421CC128905B55AAB /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3E0F762433F80E3B5CF203E819480F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CCC0CD98AB951949302B433AFE762AD /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */,
+				EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */,
+				02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */,
+				9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */,
+				837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */,
+				B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */,
+				470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */,
+				6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */,
+				6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */,
+				EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */,
+				607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */,
+				A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */,
+				A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */,
+				D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */,
+				72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */,
+				30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */,
+				8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */,
+				27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */,
+				E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */,
+				047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */,
+				AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */,
+				86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */,
+				55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */,
+				342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */,
+				C84A449C2DE4F91F0620A5147DD42E0F /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		3059CF57E7A35E6AC1A41E136FADACE7 /* QBPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				D8515BEABD9A801CB7160CD7B0DAEB31 /* FastForwardView.h */,
+				550B435AE114B4E410CC27FAFC562FCF /* FastForwardView.m */,
+				9FBC206C9BA0CA7B3FCE7A2574DB4436 /* WMLightView.h */,
+				C75D4371C65984AB38B811CC155A9E54 /* WMLightView.m */,
+				4F59249E42FAF6B688229F78624B989A /* WMPlayer.h */,
+				60B06870AC9CB5A642F7E250E994C7B0 /* WMPlayer.m */,
+				2726D898F907F06E6B7A7F2A0AD2EF73 /* WMPlayerModel.h */,
+				D3D5F90E8AD2967E7CB06D73C00B714E /* WMPlayerModel.m */,
+				E0642CDC30655F49CEC00D3AC3010495 /* Category */,
+				DA68B62EE84E88627CFE8FBF7FF50BD1 /* Pod */,
+				4A3A8D32CBE1869EA0D170E815E41641 /* Resources */,
+				ED4E36A59F15969423D59B73FBA52341 /* Support Files */,
+			);
+			name = QBPlayer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4A3A8D32CBE1869EA0D170E815E41641 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5D0BB69AC3DED2E5847B19D1F1682799 /* bottom_shadow.png */,
+				74F8A2FEAC2A1C3FB7896A2BAE3142C2 /* close@2x.png */,
+				7909E0C94663F7C17D2F592CF8B67FD0 /* close@3x.png */,
+				AF8AB028189CA4594297A08F792FA564 /* dot@2x.png */,
+				99E8C680535BE1D63E5CE66BC9B2CA6B /* dot@3x.png */,
+				0215D797AAD2E644930F1A2EB715504B /* fullscreen@2x.png */,
+				9D1471E734C8071909A0BD1F2DF63573 /* fullscreen@3x.png */,
+				BD49C11EFB173374B2DAF4FA8FE42E97 /* nonfullscreen@2x.png */,
+				72D5E24709FFF7AC431DA3B733B590E3 /* nonfullscreen@3x.png */,
+				D3423D9F402393E6FAFDCB4225B2B058 /* play_new_brightness_day.png */,
+				E902A07F1341175E1E2912E5E497A86F /* play_new_brightness_day@2x.png */,
+				DD7234369F312C065ECE1A17A50F4392 /* play_new_brightness_night.png */,
+				3242DDC2DBC2D7EC51E7F97556FF2705 /* play_new_brightness_night@2x.png */,
+				13E7131B37148CEA72744635771EEE52 /* player_ctrl_icon_next@2x.png */,
+				B051986522AD7C283812BC1D14019ECE /* player_ctrl_icon_next@3x.png */,
+				1700437721423EEFC4DEEA8D18D37EEC /* player_ctrl_icon_pause@2x.png */,
+				C56D6C017A223EEC30FC4B4A802DA294 /* player_ctrl_icon_pause@3x.png */,
+				44A4B6A4B5823004D187CC7512AA237A /* player_ctrl_icon_play@2x.png */,
+				82EC13EA808772F5DF4AFBCC8CB651BE /* player_ctrl_icon_play@3x.png */,
+				8E363EBE939211531FABF87B7BE68353 /* player_icon_download@2x.png */,
+				1B89C6296BF00E019C4F153A6A5FC234 /* player_icon_download@3x.png */,
+				3DE0CBA23FC92F2F31B632564C34CE43 /* player_icon_fullscreen@2x.png */,
+				CBC1290C4584F186A3189003784C1000 /* player_icon_fullscreen@3x.png */,
+				ADAC27087DA230E13D8D6FF6DC436CDB /* player_icon_lock@2x.png */,
+				CFEB9E6663ADC1AD49725412EBB13AAF /* player_icon_lock@3x.png */,
+				48B00A728A37C0E6BC1A924A28848A7D /* player_icon_nav_back@2x.png */,
+				E179BDFDA7801551964BFA2AE849E4C8 /* player_icon_nav_back@3x.png */,
+				1423BC4D9FBECD7676B79E9609F7B49D /* player_icon_unlock@2x.png */,
+				2C99B53EDC44C6B75A6013D5B6496A0B /* player_icon_unlock@3x.png */,
+				0E0AD8E321183EBC82E5AFCD2643BFEC /* progress_icon_l@2x.png */,
+				5F36D16C644FAD67CD7AD9646C4C8FC4 /* progress_icon_l@3x.png */,
+				5BC5C630BA6BF299D025D5E4177AABEC /* progress_icon_r@2x.png */,
+				84A1ABDD9A20916E5A8907D379F4D028 /* progress_icon_r@3x.png */,
+				F056600006C9B6F2BEDD9DAF81957BF0 /* top_shadow.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		52B5D6AA759528D5E16AB0E09B43942E /* Pods-QBPlayer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C8FA2570FB9CE3D011356CBC1986A211 /* Pods-QBPlayer_Example.modulemap */,
+				B6081B7B22116B0E3C767F1EDF549695 /* Pods-QBPlayer_Example-acknowledgements.markdown */,
+				655BF6AD41F6419F23424604F20231DE /* Pods-QBPlayer_Example-acknowledgements.plist */,
+				2CAD36A495A636F2F4741517751C530A /* Pods-QBPlayer_Example-dummy.m */,
+				4B3BF79AA3DA6800F36A5B6A8DD10143 /* Pods-QBPlayer_Example-frameworks.sh */,
+				B7B5D6CA6290B146A9FBD07934377F67 /* Pods-QBPlayer_Example-Info.plist */,
+				A3E8FB6A56788F59F94D8FEF4C63CB28 /* Pods-QBPlayer_Example-umbrella.h */,
+				C44A8C1674CAAAE04F71DC81FB08FC65 /* Pods-QBPlayer_Example.debug.xcconfig */,
+				7F7B7C2FBEFB822FC41B0F05202DB180 /* Pods-QBPlayer_Example.release.xcconfig */,
+			);
+			name = "Pods-QBPlayer_Example";
+			path = "Target Support Files/Pods-QBPlayer_Example";
+			sourceTree = "<group>";
+		};
+		587AE4820A065F0CFFFE3423089C5E79 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3059CF57E7A35E6AC1A41E136FADACE7 /* QBPlayer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CCC0CD98AB951949302B433AFE762AD /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		77366D14DAF7CD83300D52CB3B192A99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FFED36A657123030ABB700256D73F15 /* Masonry.framework */,
+				08124B12CFF37B14146F0DCCEF68D518 /* Pods_QBPlayer_Example.framework */,
+				EBCEF1FFD5D7C961A1F4E0A2EE1B9FFB /* Pods_QBPlayer_Tests.framework */,
+				B9171280132D4D5413493660F2102BA3 /* QBPlayer.bundle */,
+				2B6B12CB749E66B0FED43628072BA618 /* QBPlayer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B44D3499ECB16495643CFE8844F3880 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				442E2090D41257DEFB1ED2D0EC9DE2BD /* Masonry.framework */,
+				A82492012717702930EB2FB7E836499E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		898A1A50423DCB42F50149C7B50111D7 /* Pods-QBPlayer_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				709C94C5EFFBB5782138080FC5A0B499 /* Pods-QBPlayer_Tests.modulemap */,
+				748EDFB6B0E2133FCB4BA0A71CCDA255 /* Pods-QBPlayer_Tests-acknowledgements.markdown */,
+				67510FEF418CD8BEB879D2934C47A04B /* Pods-QBPlayer_Tests-acknowledgements.plist */,
+				E56D6C7ED9ACC48491B8D07D6A108DC9 /* Pods-QBPlayer_Tests-dummy.m */,
+				4C457D737D3F04A57F929213824137B7 /* Pods-QBPlayer_Tests-Info.plist */,
+				746F49F087C8DFD297DF1043C8C50622 /* Pods-QBPlayer_Tests-umbrella.h */,
+				4A4FEB4F86A25207F4D9D2996D164B24 /* Pods-QBPlayer_Tests.debug.xcconfig */,
+				3174D1912E7C2B4C7374F6FD7305C6A7 /* Pods-QBPlayer_Tests.release.xcconfig */,
+			);
+			name = "Pods-QBPlayer_Tests";
+			path = "Target Support Files/Pods-QBPlayer_Tests";
+			sourceTree = "<group>";
+		};
+		A82492012717702930EB2FB7E836499E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				257576D8E4F061338E78E4CE93DE484F /* AVFoundation.framework */,
+				6CB8EFD5FCA76C34EACB06944E962CAC /* Foundation.framework */,
+				DAD65967A00465C170C5A43DF69B228C /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C84A449C2DE4F91F0620A5147DD42E0F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E537C1F47DA8B06DA4A71E3D14F4DE4 /* Masonry.modulemap */,
+				A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */,
+				DFA1012B6A8BD076CD9F09831AE37A01 /* Masonry-Info.plist */,
+				BDB676D9D5D3AFD89D8DDCE3369D4BAC /* Masonry-prefix.pch */,
+				6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */,
+				F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */,
+				419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				587AE4820A065F0CFFFE3423089C5E79 /* Development Pods */,
+				7B44D3499ECB16495643CFE8844F3880 /* Frameworks */,
+				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
+				77366D14DAF7CD83300D52CB3B192A99 /* Products */,
+				F7F84E1B15AE1B43CC3C9B438EE2B82A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DA68B62EE84E88627CFE8FBF7FF50BD1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B574F835F9F09A14BDF968255B5D4B1E /* LICENSE */,
+				0DD0B2146165C2AC6876D3069F756915 /* QBPlayer.podspec */,
+				61F7534C39BA14954A0F78C036DED0F1 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E0642CDC30655F49CEC00D3AC3010495 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7E475E1ACFD7051D9570616C20F8D033 /* UIViewController+ShouldAutorotate.h */,
+				F12E253D8AC5569C874CD1CE3F3D1FF7 /* UIViewController+ShouldAutorotate.m */,
+			);
+			name = Category;
+			path = QBPlayer/Classes/Category;
+			sourceTree = "<group>";
+		};
+		ED4E36A59F15969423D59B73FBA52341 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				50E23F86C39E935F72145FDE8902CF5C /* QBPlayer.modulemap */,
+				447E921FA5508302E5AB9CD2A3FE2796 /* QBPlayer-dummy.m */,
+				344F9E43DC5300993A1951AD54D7BF48 /* QBPlayer-Info.plist */,
+				B177774FD5A2FAC13BE96CA780BF04F8 /* QBPlayer-prefix.pch */,
+				5C345EF79190223E1D503B4365D9DED9 /* QBPlayer-umbrella.h */,
+				7542DEB762570C34F4BC0FED8671FDFD /* QBPlayer.debug.xcconfig */,
+				257FB4C80A6B5A41E06C701D7008E964 /* QBPlayer.release.xcconfig */,
+				FC6E2C3FE91462A8B36B16B7FE72FF67 /* ResourceBundle-QBPlayer-QBPlayer-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QBPlayer";
+			sourceTree = "<group>";
+		};
+		F7F84E1B15AE1B43CC3C9B438EE2B82A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				52B5D6AA759528D5E16AB0E09B43942E /* Pods-QBPlayer_Example */,
+				898A1A50423DCB42F50149C7B50111D7 /* Pods-QBPlayer_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7B04ACBA4522760CA66A5D4AFA498F81 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */,
+				9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */,
+				941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */,
+				FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */,
+				8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */,
+				6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */,
+				346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */,
+				280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */,
+				3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */,
+				EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */,
+				05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */,
+				05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */,
+				0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */,
+				E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */,
+				8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923D3F04AA7B1132FF5EE3435E4BB9D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5704996544A89369F0993DDB6063F4A8 /* Pods-QBPlayer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6163104E3DECC2B34540CEB2238CE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E00D22B5F9C7E42A03FFDD155132B5A /* FastForwardView.h in Headers */,
+				B527AA90521F6FD70A3DA6DFB0C56BB0 /* QBPlayer-umbrella.h in Headers */,
+				9D590F05EAE8E7CEE9A202AB441DA366 /* UIViewController+ShouldAutorotate.h in Headers */,
+				BBD17C92924082F41EF99DD8B0232993 /* WMLightView.h in Headers */,
+				D35199123E67999062FEBA10E420FC36 /* WMPlayer.h in Headers */,
+				E6DC3301FF16B6A370EC8E243061C135 /* WMPlayerModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B16D7EAD7A8D483FC4FC924B2E1E9E26 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58D52BBB630E668847C8D1176C21CC4 /* Pods-QBPlayer_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87FD40BD683E3BD044AA4D1B5CA58652 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				7B04ACBA4522760CA66A5D4AFA498F81 /* Headers */,
+				038B428AD06C5A47FAF2BEFE16C6DC16 /* Sources */,
+				5E047F76604659BF1B2099B2C412AC93 /* Frameworks */,
+				895ED1B8779C1D82DF681CBFF67AC570 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		575B27FEE9C2479F10FD4FC6D304F45F /* QBPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 467C77FA0412789C6CD3965BDAC4C4F4 /* Build configuration list for PBXNativeTarget "QBPlayer" */;
+			buildPhases = (
+				9B6163104E3DECC2B34540CEB2238CE9 /* Headers */,
+				45991D0A6053718DDA02728221464117 /* Sources */,
+				A9818429105FCF7A6B1875ABC9695131 /* Frameworks */,
+				F4C083DA2984CCEE4B1B391436BF26FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F256E318E38CB1CEC619A8403DBD506 /* PBXTargetDependency */,
+				F669F9EA4AD28FE4B2636EE2A83F82CE /* PBXTargetDependency */,
+			);
+			name = QBPlayer;
+			productName = QBPlayer;
+			productReference = 2B6B12CB749E66B0FED43628072BA618 /* QBPlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7995B5A3B4F812B3DC50296A35DD3EAF /* Pods-QBPlayer_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 672E09B5E832E2E3CE462EB05F82820F /* Build configuration list for PBXNativeTarget "Pods-QBPlayer_Tests" */;
+			buildPhases = (
+				B16D7EAD7A8D483FC4FC924B2E1E9E26 /* Headers */,
+				A7851C85B9C131DC97F64C9CA99F723A /* Sources */,
+				1A7DB7C3A61445A3E829B4728265C597 /* Frameworks */,
+				AA84716E4AB7B03754EA7DB122FE72BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33F5425FBAA8EDFAD6DBC46037DFE9FD /* PBXTargetDependency */,
+			);
+			name = "Pods-QBPlayer_Tests";
+			productName = "Pods-QBPlayer_Tests";
+			productReference = EBCEF1FFD5D7C961A1F4E0A2EE1B9FFB /* Pods_QBPlayer_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		79C3B35EB34323AFD8CD57C8D8388FE9 /* QBPlayer-QBPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFAF0C595FC42E468DAD5698EF786305 /* Build configuration list for PBXNativeTarget "QBPlayer-QBPlayer" */;
+			buildPhases = (
+				ED19BE9F6721DF93A9985B25551C4EDA /* Sources */,
+				F3E0F762433F80E3B5CF203E819480F2 /* Frameworks */,
+				31356CE0EA5F57F7ECB9989A3178F308 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QBPlayer-QBPlayer";
+			productName = "QBPlayer-QBPlayer";
+			productReference = B9171280132D4D5413493660F2102BA3 /* QBPlayer.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8794641640AC7B54CDC1EDB28E93B377 /* Pods-QBPlayer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B65E7C8A7498682675232ACD251551F /* Build configuration list for PBXNativeTarget "Pods-QBPlayer_Example" */;
+			buildPhases = (
+				923D3F04AA7B1132FF5EE3435E4BB9D8 /* Headers */,
+				932DB5902BFE2F3A3FA6DA2587985ABC /* Sources */,
+				2563020146961347D51809507CFFE59E /* Frameworks */,
+				29CA780C59561FD0A38BAB6DEA27155B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3B0C25F44F06E7E12BD0D488F9B8627 /* PBXTargetDependency */,
+				E3F2FF7D0D4588CB504F2D9BBC195DF7 /* PBXTargetDependency */,
+			);
+			name = "Pods-QBPlayer_Example";
+			productName = "Pods-QBPlayer_Example";
+			productReference = 08124B12CFF37B14146F0DCCEF68D518 /* Pods_QBPlayer_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 77366D14DAF7CD83300D52CB3B192A99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
+				8794641640AC7B54CDC1EDB28E93B377 /* Pods-QBPlayer_Example */,
+				7995B5A3B4F812B3DC50296A35DD3EAF /* Pods-QBPlayer_Tests */,
+				575B27FEE9C2479F10FD4FC6D304F45F /* QBPlayer */,
+				79C3B35EB34323AFD8CD57C8D8388FE9 /* QBPlayer-QBPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29CA780C59561FD0A38BAB6DEA27155B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31356CE0EA5F57F7ECB9989A3178F308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FB07AE1BBACA19788C85EE24F09566D /* bottom_shadow.png in Resources */,
+				B204A1C3EBEE3B2147C9D7A3CC095528 /* close@2x.png in Resources */,
+				71B8F2D6F5F98F3857551FEACFA7B944 /* close@3x.png in Resources */,
+				565B1ED4610A0889556BC17FE2DE962A /* dot@2x.png in Resources */,
+				33A99196E804403C39182F532AAFB00D /* dot@3x.png in Resources */,
+				A9BF02249A21B1C8B88A72F6035CE3FD /* fullscreen@2x.png in Resources */,
+				4C501B62E6E2C2E62DC35472EA2DD8BB /* fullscreen@3x.png in Resources */,
+				2C8DC2184B0DA3F20D3A255645D93A7E /* nonfullscreen@2x.png in Resources */,
+				A6CF22D83D09879023CC6E0E48147C11 /* nonfullscreen@3x.png in Resources */,
+				C34C286484BA8E0AE0A535385AC2E9BE /* play_new_brightness_day.png in Resources */,
+				2ABA7F81BA7F4958D704F618BAB506CC /* play_new_brightness_day@2x.png in Resources */,
+				CFD704894806EA1C6CFCAEB21F2E09BF /* play_new_brightness_night.png in Resources */,
+				E9B902C73B74BD46F94B14C47AA49806 /* play_new_brightness_night@2x.png in Resources */,
+				6BB15D897751E0D2EAD4470516E9D77F /* player_ctrl_icon_next@2x.png in Resources */,
+				BC63C1F4FF236B527B46C7989D696DC1 /* player_ctrl_icon_next@3x.png in Resources */,
+				2BE1B215E8373281BF86BC4E8CBB61D5 /* player_ctrl_icon_pause@2x.png in Resources */,
+				8269CC307724A7377DABD464DAA80C2A /* player_ctrl_icon_pause@3x.png in Resources */,
+				4EDA1B033FC952016AD4CAE177F19BD5 /* player_ctrl_icon_play@2x.png in Resources */,
+				61F6563BE0681B8A1A5BB40B46EAD2F6 /* player_ctrl_icon_play@3x.png in Resources */,
+				2BC95A9927DBFA15A55FCC9DB5C8FAF8 /* player_icon_download@2x.png in Resources */,
+				76DA830202689B06DAF10A2F51952D5A /* player_icon_download@3x.png in Resources */,
+				D21A4625BFA802270C26CBDF32C61B52 /* player_icon_fullscreen@2x.png in Resources */,
+				F7FDBC5480CCD0020693D763F36CAF4A /* player_icon_fullscreen@3x.png in Resources */,
+				DE9F3594F722FC5816B7FED76BDE64EB /* player_icon_lock@2x.png in Resources */,
+				9EE8C3D4A51198F2194B01AD9403C784 /* player_icon_lock@3x.png in Resources */,
+				ACA118597472D7672357F878F24B33CF /* player_icon_nav_back@2x.png in Resources */,
+				0007BE14A4FC52F72E60D3D6DD33DB06 /* player_icon_nav_back@3x.png in Resources */,
+				21A2FE148991C6D88E53188159A274A3 /* player_icon_unlock@2x.png in Resources */,
+				CBC016104E9D305C832025CAEEE873DE /* player_icon_unlock@3x.png in Resources */,
+				3D92D564CB242C6F5854A8221147D80A /* progress_icon_l@2x.png in Resources */,
+				EED5539506EF0A01969552B630D42E62 /* progress_icon_l@3x.png in Resources */,
+				CC8E0DE670AA47C286F11FA5D09B2ADB /* progress_icon_r@2x.png in Resources */,
+				93837C8C3179399ADB632C0AA3D8A778 /* progress_icon_r@3x.png in Resources */,
+				16413DD1D025BA65C2422E39C6A6E64D /* top_shadow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895ED1B8779C1D82DF681CBFF67AC570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA84716E4AB7B03754EA7DB122FE72BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C083DA2984CCEE4B1B391436BF26FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB5B98CDFA647EA18928B5DE184B52E /* QBPlayer.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		038B428AD06C5A47FAF2BEFE16C6DC16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */,
+				E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */,
+				78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */,
+				8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */,
+				1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */,
+				297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */,
+				B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */,
+				098630ECDB64ED7B89F5F687C82B4AC3 /* NSArray+MASAdditions.m in Sources */,
+				C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */,
+				0967598607D521318F69D7D39D517B20 /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45991D0A6053718DDA02728221464117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8645262C496292A131BC2C699ED23AC7 /* FastForwardView.m in Sources */,
+				E141A50EFDB0CF7EA412216B694762A9 /* QBPlayer-dummy.m in Sources */,
+				D299590207348A4C479BFF3BDE87FEF6 /* UIViewController+ShouldAutorotate.m in Sources */,
+				0BF01ABCDF7A8F4034AB29BB14B8FB7F /* WMLightView.m in Sources */,
+				94B691DC084864B661E984F2F2894E65 /* WMPlayer.m in Sources */,
+				4F1F1D252FC68A0DED134808E6ED5708 /* WMPlayerModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932DB5902BFE2F3A3FA6DA2587985ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4083F9C092F10435003EE2B959C6AD /* Pods-QBPlayer_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7851C85B9C131DC97F64C9CA99F723A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F452F2B6E4876712D8AF8E9C05ADA7 /* Pods-QBPlayer_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED19BE9F6721DF93A9985B25551C4EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33F5425FBAA8EDFAD6DBC46037DFE9FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QBPlayer_Example";
+			target = 8794641640AC7B54CDC1EDB28E93B377 /* Pods-QBPlayer_Example */;
+			targetProxy = 54CD8FDA20861CE7FD0C2E455BF3845E /* PBXContainerItemProxy */;
+		};
+		9F256E318E38CB1CEC619A8403DBD506 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = CF2D5E2AC7E547689673666643DD4DAF /* PBXContainerItemProxy */;
+		};
+		B3B0C25F44F06E7E12BD0D488F9B8627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 13F8BAEBFE677EB4A0CAA35279DAC30E /* PBXContainerItemProxy */;
+		};
+		E3F2FF7D0D4588CB504F2D9BBC195DF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QBPlayer;
+			target = 575B27FEE9C2479F10FD4FC6D304F45F /* QBPlayer */;
+			targetProxy = 94339A98E29CBB46DA73E39BE0DE0AEE /* PBXContainerItemProxy */;
+		};
+		F669F9EA4AD28FE4B2636EE2A83F82CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "QBPlayer-QBPlayer";
+			target = 79C3B35EB34323AFD8CD57C8D8388FE9 /* QBPlayer-QBPlayer */;
+			targetProxy = B253F86BC2D64B8D06E0B831AE9C63F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		24A52E5B66E5A896BD0E2C1A1E30666A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7542DEB762570C34F4BC0FED8671FDFD /* QBPlayer.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QBPlayer";
+				IBSC_MODULE = QBPlayer;
+				INFOPLIST_FILE = "Target Support Files/QBPlayer/ResourceBundle-QBPlayer-QBPlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = QBPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		2F9E32D976A2ECC59B5F85C08CFDC6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 257FB4C80A6B5A41E06C701D7008E964 /* QBPlayer.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QBPlayer/QBPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QBPlayer/QBPlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QBPlayer/QBPlayer.modulemap";
+				PRODUCT_MODULE_NAME = QBPlayer;
+				PRODUCT_NAME = QBPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5446A4FBF481CA61B3780C945CC385F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7542DEB762570C34F4BC0FED8671FDFD /* QBPlayer.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QBPlayer/QBPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QBPlayer/QBPlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QBPlayer/QBPlayer.modulemap";
+				PRODUCT_MODULE_NAME = QBPlayer;
+				PRODUCT_NAME = QBPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6937BDCA511479ACC614AF0793FFC06E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		831A7A7CF66EC2E52A8122CC0566FD3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F7B7C2FBEFB822FC41B0F05202DB180 /* Pods-QBPlayer_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QBPlayer_Example/Pods-QBPlayer_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QBPlayer_Example/Pods-QBPlayer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		99108FB51C1BCEFB52DE47B14273A860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3174D1912E7C2B4C7374F6FD7305C6A7 /* Pods-QBPlayer_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QBPlayer_Tests/Pods-QBPlayer_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QBPlayer_Tests/Pods-QBPlayer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B912847EC96F15B7B91D0AABC1C0A781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A4FEB4F86A25207F4D9D2996D164B24 /* Pods-QBPlayer_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QBPlayer_Tests/Pods-QBPlayer_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QBPlayer_Tests/Pods-QBPlayer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BED7D3C2176F45F63F00472A7CB40AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C44A8C1674CAAAE04F71DC81FB08FC65 /* Pods-QBPlayer_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QBPlayer_Example/Pods-QBPlayer_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QBPlayer_Example/Pods-QBPlayer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D45B0094A457EE4A52D5D84A8A18BEA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED554A72953C5B5DD9D3DE85A76F74EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 257FB4C80A6B5A41E06C701D7008E964 /* QBPlayer.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QBPlayer";
+				IBSC_MODULE = QBPlayer;
+				INFOPLIST_FILE = "Target Support Files/QBPlayer/ResourceBundle-QBPlayer-QBPlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = QBPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B65E7C8A7498682675232ACD251551F /* Build configuration list for PBXNativeTarget "Pods-QBPlayer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED7D3C2176F45F63F00472A7CB40AB0 /* Debug */,
+				831A7A7CF66EC2E52A8122CC0566FD3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		467C77FA0412789C6CD3965BDAC4C4F4 /* Build configuration list for PBXNativeTarget "QBPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5446A4FBF481CA61B3780C945CC385F9 /* Debug */,
+				2F9E32D976A2ECC59B5F85C08CFDC6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		672E09B5E832E2E3CE462EB05F82820F /* Build configuration list for PBXNativeTarget "Pods-QBPlayer_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B912847EC96F15B7B91D0AABC1C0A781 /* Debug */,
+				99108FB51C1BCEFB52DE47B14273A860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87FD40BD683E3BD044AA4D1B5CA58652 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45B0094A457EE4A52D5D84A8A18BEA5 /* Debug */,
+				6937BDCA511479ACC614AF0793FFC06E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFAF0C595FC42E468DAD5698EF786305 /* Build configuration list for PBXNativeTarget "QBPlayer-QBPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24A52E5B66E5A896BD0E2C1A1E30666A /* Debug */,
+				ED554A72953C5B5DD9D3DE85A76F74EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

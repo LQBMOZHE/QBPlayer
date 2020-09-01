@@ -1,0 +1,23 @@
+PODS:
+  - Masonry (1.1.0)
+  - QBPlayer (0.1.0):
+    - Masonry
+
+DEPENDENCIES:
+  - QBPlayer (from `../QBPlayer.podspec`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+
+EXTERNAL SOURCES:
+  QBPlayer:
+    :path: "../QBPlayer.podspec"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  QBPlayer: 77fab194923f92038e0bf37d71fe7f1d437e7d47
+
+PODFILE CHECKSUM: 128d3bb0102ee070a9b1a6e7478fbdd192dd0f73
+
+COCOAPODS: 1.9.1
