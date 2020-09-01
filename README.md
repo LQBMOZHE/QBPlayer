@@ -29,3 +29,4 @@ pod 'QBPlayer'
 QBPlayer is available under the MIT license. See the LICENSE file for more info.
 # QBPlayer
 # TDNIMKit
+# QBPlayerSpec
